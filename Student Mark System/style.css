@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.mark{
+    height: 200px;
+    width: 400px;
+    background-color: powderblue;
+    margin-top: 50px;
+    border: 2px black solid;
+    border-radius: 3%;
+    margin-left: 50px;
+    padding: 10px;
+}
+#marks{
+    margin-left: 10px;
+}
+#paragraph{
+    margin-top: 90px;
+}
+input{
+    margin-top: 20px;
+}
+.controls{
+    height: 400px;
+    width: 300px;
+    background-color: powderblue;
+     border: 2px black solid;
+    border-radius: 3%;
+}
+.parent{
+    display:flex;
+    gap: 450px;
+    margin-top: 50px;
+}
